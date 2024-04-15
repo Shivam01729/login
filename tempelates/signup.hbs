@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+        <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+    
+    <div class="content">
+        <div class="txt">
+            <h1 id="name">ANITUNES</h1>
+            <p id="para">Harmonizing your passions, one tune at a time...</p>
+        </div>
+        <div class="card">
+            <form action="/signup" method="post" >
+                <input placeholder="Name" name="name" type="text" id="email">
+                <br>
+                <input placeholder="Password" name="password" type="password" id="pswd">
+                <br>
+                <input class="sub" type="submit" value="Sign up" id="login_btn">
+                <h3 id="fp">Already have an account ?</h3>
+                <hr id="line">
+                <a href="/" id="acc_btn">Go back to login page</a>
+            </form>
+        </div>
+    </div>
+
+
+    {{!-- <h1>Sign Up</h1>
+
+    <form action="/signup" method="post" >
+        <input placeholder="Name" name="name" type="text">
+        <br>
+        <input placeholder="Password" name="password" type="password">
+        <br>
+        <input class="sub" type="submit">
+    </form>
+
+    <a href="/">Go back to login page</a> --}}
+
+</body>
+</html>
